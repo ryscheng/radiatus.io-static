@@ -1,0 +1,29 @@
+{
+  "name": "radiatus.io",
+  "version": "0.0.1",
+  "description": "Source code for Radiatus.io deployment",
+  "main": "cli.js",
+  "scripts": {
+    "start": "node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/freedomjs/radiatus.io.git"
+  },
+  "contributors": [
+    "Raymond Cheng <ryscheng@cs.washington.edu> (http://raymondcheng.net)"
+  ],
+  "bugs": {
+    "url": "https://github.com/freedomjs/radiatus.io/issues"
+  },
+  "homepage": "http://radiatus.io",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-jshint": "^0.10.0"
+  },
+  "dependencies": {
+    "radiatus": "0.0.2",
+    "radiatus-providers": "0.0.6"
+  }
+}
