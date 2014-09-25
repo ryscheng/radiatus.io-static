@@ -1,0 +1,10 @@
+{
+  "name": "Load Test",
+  "description": "",
+  "app": {
+    "script": "main.js"
+  },
+  "permissions": [
+    "core.websocket"
+  ]
+}

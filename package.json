@@ -24,6 +24,9 @@
   },
   "dependencies": {
     "radiatus": "0.0.2",
-    "radiatus-providers": "0.0.6"
+    "radiatus-providers": "0.0.6",
+    "freedom": "~0.5.6",
+    "freedom-for-node": "~0.1.7",
+    "ws": "~0.4.32"
   }
 }

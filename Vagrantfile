@@ -68,14 +68,9 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # View the documentation for the provider you're using for more
   # information on available options.
 
-  # Enable provisioning with Puppet stand alone.  Puppet manifests
-  # are contained in a directory path relative to this Vagrantfile.
-  # You will need to create the manifests directory and a manifest in
-  # the file default.pp in the manifests_path directory.
-  #
   config.vm.provision "puppet" do |puppet|
     puppet.manifests_path = "puppet/manifests"
-    puppet.module_path = "puppet/modules"
+    puppet.module_path = "~/.puppet/modules"
     puppet.manifest_file  = "default.pp"
     puppet.options = "--verbose --debug"
   end
