@@ -30,7 +30,7 @@ var collection = null;
 
 MongoClient.connect(config.mongoUrl, function(err, db) {
   if(err) throw err;
-  collection = db.collection('test_insert');
+  collection = db.collection(config.mongoCollection);
 });
 
 for (var i=0; i<config.numModules; i++) {
