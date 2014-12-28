@@ -1,0 +1,27 @@
+{
+  "name": "radiatus.io-static",
+  "version": "0.0.0",
+  "homepage": "https://github.com/ryscheng/radiatus.io-static",
+  "authors": [
+    "Raymond Cheng <ryscheng@cs.washington.edu> (http://raymondcheng.net)"
+  ],
+  "description": "splash page for radiatus.io",
+  "main": "index.html",
+  "license": "N/A",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3",
+    "bootstrap": "~3.3.1",
+    "modernizr": "~2.8.3",
+    "isotope": "~2.1.0",
+    "jquery-backstretch": "~2.0.4",
+    "fontawesome": "~4.2.0"
+  }
+}
