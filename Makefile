@@ -1,5 +1,6 @@
 
 build:
+	bower install
 	cp bower_components/jquery/dist/jquery.min.* thirdparty/
 	cp bower_components/modernizr/modernizr.js thirdparty/
 	cp bower_components/isotope/dist/isotope.pkgd.min.js thirdparty/
